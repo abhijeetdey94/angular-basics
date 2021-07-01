@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+
+div, input, button {
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+app-root {
+    display: block;
+    height: 100vh;
+    border: 10px dashed darkcyan;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+}
+
+.flex-row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+.flex-box-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.blue-container {
+    background-color: darkgreen;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+}
